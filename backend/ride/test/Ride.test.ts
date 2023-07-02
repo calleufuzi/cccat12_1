@@ -1,5 +1,5 @@
 
-import Ride from "../src/Ride";
+import Ride from "../src/core/use_cases/Ride";
 import { calculate } from "../src/RideCalculator";
 
 test("Deve fazer o cálculo do preço de uma corrida durante o dia", function () {
